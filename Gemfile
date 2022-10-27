@@ -1,4 +1,8 @@
-#!/usr/bin/env ruby 
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# gem "rails"
 
 source "https://rubygems.org"
 gem "rspec"
@@ -7,6 +11,3 @@ gem "rest-client"
 group :development do
   gem "pry"
 end
-# require the environment file
-
-require_relative '../config/environment'
